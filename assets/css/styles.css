@@ -6,7 +6,6 @@ body {
 }
 
 header {
-  border: 3px solid black;
   width: 90%;
   margin-left: 5%;
 }
@@ -24,17 +23,34 @@ div {
 }
 
 div.column1of3{
-  margin-left: 4%;
+}
+
+div.column2of3{
+  margin-top: -10%;
 }
 
 label {
   padding-top: .5em;
   display: block;
-  
-
+  font-size: 1em;
+  text-transform: uppercase;
 }
 
 input{
+  width: 350px;
+  height: 40px;
+  background-color: #47a3da;
+  border-style: solid; /* gets rid of ugly bevel: http://stackoverflow.com/questions/12791631/remove-inner-shadow-of-text-input*/
+  margin-bottom: 1em;
 
+}
 
+select{
+  width: 350px;
+  height: 40px;
+
+}
+
+input.submit {
+  margin-left: 35%;
 }
