@@ -20,5 +20,21 @@ form {
 div {
   border: 3px solid green;
   width: 30%;
+  display: inline-block;
+}
+
+div.column1of3{
+  margin-left: 4%;
+}
+
+label {
+  padding-top: .5em;
+  display: block;
   
+
+}
+
+input{
+
+
 }
