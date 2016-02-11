@@ -1,1 +1,24 @@
+body {
+  font-size: 1em;
+  font-family: 'Lato', sans-serif;
+  color: white;
+  background-color: #47a3da;
+}
 
+header {
+  border: 3px solid black;
+  width: 90%;
+  margin-left: 5%;
+}
+
+form {
+  border: 3px solid yellow;
+  width: 90%;
+  margin-left: 5%;
+}
+
+div {
+  border: 3px solid green;
+  width: 30%;
+  
+}

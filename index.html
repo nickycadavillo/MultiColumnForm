@@ -1,1 +1,83 @@
+<!doctype html>
 
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>MultiColumnForm</title>
+  <meta name="description" content="MultiColumnForm">
+  <meta name="author" content="SitePoint">
+
+  <link rel="stylesheet" href="assets/css/normalize.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+  <header>
+    <h1>Blueprint Responsive Multi-ColumnForm</h1>
+      <nav>add links here</nav>
+  </header>
+
+        <form class="form">
+          <div class="column1of3">
+            <label for="first name">First Name</label>
+            <input type="text" id="first name" name="first name" placeholder="Nicky"/>
+            <label for="last name">Last Name</label>
+            <input type="text" id="last name" name="last name" placeholder="Cadavillo"/>
+            <label for="email address">Email Address</label>
+            <input type="text" id="email" name="email" placeholder="nicky@mail.com"/>
+            <label for="country">Country</label>
+            <select id="country" name="country">
+              <option>Choose a country</option>
+              <option>USA</option>
+              <option>Canada</option>
+              <option>Mexico</option>
+            </select>
+            <label for="biography">Biography</label>
+            <textarea id="biography" name="biography"></textarea>
+          </div>
+
+          <div class="column2of3">
+            <label for="number">Phone Number</label>
+            <input type="text" id="number" placeholder="123 456 7890"/>
+            <label for="affiliations">Affiliations</label>
+            <textarea id="affiliations"></textarea>
+            <label for="occupation">Occupation</label>
+            <select id="occupation" name="occupation">
+              <option>Choose an occupation</option>
+              <option>Front End Developer</option>
+              <option>Back End Developer</option>
+              <option>Full Stack Developer</option>
+            </select>
+            <label for="dog">Dog's name</label>
+            <input type="text" id="dog" placeholder="Pepper"/>
+            <label for"gadget">Favorite Gadget</label>
+            <input type="text" id="gadget" placeholder="videogame"/>
+          </div>
+          
+          <div class="column3of3">
+            <label for="talent">Type of Talent</label>
+            <select id="talent" name="talent">
+              <option>Choose a talent</option>
+              <option>Dancing</option>
+              <option>Singing</option>
+              <option>Kicking Ass</option>
+            </select>
+            <label for="drink">Favorite Drink</label>
+            <input type="text" id="drink" placeholder="coffee"/>
+            <label for="power">Special Power</label>
+            <input type="text" id="power" placeholder="flight"/>
+            <label for="weapon">Weapon of choice</label>
+            <input type="text" id="weapon" placeholder="bare hands"/>
+            <label for="comments">Comments</label>
+            <textarea id="comments" name="comments"></textarea>
+          </div>
+          <input type="submit" value="Send your data"/>
+        </form>
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+  <script src="js/scripts.js"></script>
+</body>
+</html>
