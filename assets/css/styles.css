@@ -11,12 +11,12 @@ header {
   margin-bottom: 5%;
 }
 
-form {
+form { /* container for the entire form*/
   width: 90%;
   margin-left: 5%;
 }
 
-div {
+div { /*container for each column*/
   width: 30%;
   margin-left: 10px;
   display: inline-block;
@@ -45,23 +45,36 @@ label {
 
 input{
   width: 350px;
-  height: 40px;
+  height: 45px;
   background-color: #47a3da;
+  border: 3px;
   border-style: solid; /* gets rid of ugly bevel: http://stackoverflow.com/questions/12791631/remove-inner-shadow-of-text-input*/
   margin-bottom: 1em;
+  padding: 2px;
+}
 
+input:focus{
+  color: #10689a;
+}
+
+::-webkit-input-placeholder{
+  color: #10689a;
+  font-style: italic;
 }
 
 select{
   width: 350px;
+  -webkit-appearance: menulist-button; /*http://stackoverflow.com/questions/20656114/how-to-style-increase-the-height-of-select-box-in-css*/
+  height: 35px;
+  background-color: #47a3da;
 
 }
 
 input.submit {
-  margin-left: 30%;
+  margin-left: 35%;
   width: 300px;
   text-transform: uppercase;
-  background-color: midnightblue;
+  background-color: #10689a;
 }
 
 textarea {
