@@ -8,25 +8,31 @@ body {
 header {
   width: 90%;
   margin-left: 5%;
+  margin-bottom: 5%;
 }
 
 form {
-  border: 3px solid yellow;
   width: 90%;
   margin-left: 5%;
 }
 
 div {
-  border: 3px solid green;
   width: 30%;
+  margin-left: 10px;
   display: inline-block;
-}
+  /*border: 1px solid black;*/
 
-div.column1of3{
 }
 
 div.column2of3{
-  margin-top: -10%;
+  padding-left: 20px;
+  padding-right: 20px;
+  overflow: auto; /*aligning the column at the top horizontally with the other 2*/
+  /*http://stackoverflow.com/questions/211383/which-method-of-clearfix-is-best*/
+}
+
+div.column3of3{
+  padding-left: 20px;
 }
 
 label {
@@ -35,6 +41,7 @@ label {
   font-size: 1em;
   text-transform: uppercase;
 }
+
 
 input{
   width: 350px;
@@ -47,10 +54,17 @@ input{
 
 select{
   width: 350px;
-  height: 40px;
 
 }
 
 input.submit {
-  margin-left: 35%;
+  margin-left: 30%;
+  width: 300px;
+  text-transform: uppercase;
+  background-color: midnightblue;
+}
+
+textarea {
+  width: 350px;
+  height: 150px;
 }
