@@ -18,6 +18,7 @@ h5 {
 form { /* container for the entire form*/
   width: 90%;
   margin-left: 5%;
+  position: absolute;
 }
 
 div { /*container for each column*/
@@ -29,6 +30,7 @@ div { /*container for each column*/
 }
 
 div.column2of3{
+  height: 100%;
   padding-left: 20px;
   padding-right: 20px;
   overflow: auto; /*aligning the column at the top horizontally with the other 2*/
