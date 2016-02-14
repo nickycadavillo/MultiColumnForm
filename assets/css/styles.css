@@ -103,6 +103,7 @@ input.submit {
 }
 
 textarea {
+  color: #47a3da;
   width: 350px;
   height: 150px;
 }

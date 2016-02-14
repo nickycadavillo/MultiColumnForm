@@ -18,7 +18,7 @@ var weapon = document.getElementById("weapon");
 
 var country = document.getElementById("countries");
 var job = document.getElementById("occupations");
-var talent = document.getElementById("talant");
+var talent = document.getElementById("talents");
 
 var biography = document.getElementById("bio");
 var affil = document.getElementById("affiliations");
@@ -59,7 +59,6 @@ gadget.addEventListener('input', function(prevDefault) {
   console.log(gadget.value);
 });
 
-
 favDrink.addEventListener('input', function(prevDefault) {
   prevDefault.preventDefault();
   console.log(favDrink.value);
@@ -73,4 +72,34 @@ superPower.addEventListener('input', function(prevDefault) {
 weapon.addEventListener('input', function(prevDefault) {
   prevDefault.preventDefault();
   console.log(weapon.value);
+});
+
+bio.addEventListener('input', function(prevDefault) {
+  prevDefault.preventDefault();
+  console.log(bio.value);
+});
+
+affil.addEventListener('input', function(prevDefault) {
+  prevDefault.preventDefault();
+  console.log(affil.value);
+});
+
+comment.addEventListener('input', function(prevDefault) {
+  prevDefault.preventDefault();
+  console.log(comment.value);
+});
+
+country.addEventListener('change', function(prevDefault) {
+  prevDefault.preventDefault();
+  console.log(country.value);
+});
+
+job.addEventListener('change', function(prevDefault) {
+  prevDefault.preventDefault();
+  console.log(job.value);
+});
+
+talent.addEventListener('change', function(prevDefault) {
+  prevDefault.preventDefault();
+  console.log(talent.value);
 });
