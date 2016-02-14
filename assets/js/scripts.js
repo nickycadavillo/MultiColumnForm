@@ -24,4 +24,53 @@ var biography = document.getElementById("bio");
 var affil = document.getElementById("affiliations");
 var comment = document.getElementById("comments");
 
-var submitData = document.getElementbyId("submit-form");
+var submitData = document.getElementById("submit-form");
+
+firstName.addEventListener('input', function(prevDefault) {
+  //alert("Hi");
+  prevDefault.preventDefault();
+  console.log(firstName.value);
+});
+
+lastName.addEventListener('input', function(prevDefault) {
+  //alert("Hi");
+  prevDefault.preventDefault();
+  console.log(lastName.value);
+});
+
+email.addEventListener('input', function(prevDefault) {
+  //alert("Hi");
+  prevDefault.preventDefault();
+  console.log(email.value);
+});
+
+phone.addEventListener('input', function(prevDefault) {
+  prevDefault.preventDefault();
+  console.log(phone.value);
+});
+
+pet.addEventListener('input', function(prevDefault) {
+  prevDefault.preventDefault();
+  console.log(pet.value);
+});
+
+gadget.addEventListener('input', function(prevDefault) {
+  prevDefault.preventDefault();
+  console.log(gadget.value);
+});
+
+
+favDrink.addEventListener('input', function(prevDefault) {
+  prevDefault.preventDefault();
+  console.log(favDrink.value);
+});
+
+superPower.addEventListener('input', function(prevDefault) {
+  prevDefault.preventDefault();
+  console.log(superPower.value);
+});
+
+weapon.addEventListener('input', function(prevDefault) {
+  prevDefault.preventDefault();
+  console.log(weapon.value);
+});
