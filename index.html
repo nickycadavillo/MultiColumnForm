@@ -21,21 +21,21 @@
 
         <form class="form">
           <div class="column1of3">
-            <label for="first-name" class = "first-name">First Name</label>
-            <input type="text" id="first name" name="first name" placeholder="Nicky"/>
+            <label for="first-name">First Name</label>
+            <input type="text" id="first-name" name="first name" placeholder="Nicky"/>
             <label for="last-name">Last Name</label>
-            <input type="text" id="last name" name="last name" placeholder="Cadavillo"/>
+            <input type="text" id="last-name" name="last name" placeholder="Cadavillo"/>
             <label for="email-address">Email Address</label>
             <input type="text" id="email" name="email" placeholder="nicky@mail.com"/>
             <label for="country">Country</label>
-            <select id="country" name="country">
+            <select id="countries" name="country">
               <option>Choose a country</option>
               <option>USA</option>
               <option>Canada</option>
               <option>Mexico</option>
             </select>
             <label for="biography">Biography</label>
-            <textarea id="biography" name="biography"></textarea>
+            <textarea id="bio" name="biography"></textarea>
           </div>
 
           <div class = "column2of3">
@@ -44,7 +44,7 @@
             <label for = "affiliations">Affiliations</label>
             <textarea id = "affiliations"></textarea>
             <label for = "occupation">Occupation</label>
-            <select id = "occupation" name="occupation">
+            <select id = "occupations" name="occupation">
               <option>Choose an occupation</option>
               <option>Front End Developer</option>
               <option>Professional Panda Hugger</option>
@@ -74,11 +74,11 @@
             <textarea id= "comments" name ="comments"></textarea>
           </div>
 
-          <input type = "submit" class = "submit" value="Send your data"/>
+          <input type = "submit" id = "submit-form" class = "submit" value="Send your data"/>
         </form>
   <!--[if lt IE 9]>
   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
-  <script src="assets/js/scripts.js"></script>
+  <script src="js/scripts.js"></script>
 </body>
 </html>
