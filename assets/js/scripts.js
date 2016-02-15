@@ -135,3 +135,13 @@ console.log("first name: " + firstName.value, "last name: " + lastName.value, "e
 "occupation: " + job.value, "dog: " + pet.value, "favorite gadget: " + gadget.value, "talent: " + talent.value,
 "drink: " + favDrink.value, "super power: " + superPower.value, "weapon: " + weapon.value, "comments: " + comment.value)
 });
+
+
+// var allData = [firstName, lastName, email, country, bio]
+//
+// submitData.addEventListener('click', function(prevDefault){
+//   prevDefault.preventDefault();
+//     for (var allData = 0; allData < allData.length; allData++) {
+//       console.log(allData)
+// }
+// });
